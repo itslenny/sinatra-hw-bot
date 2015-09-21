@@ -5,6 +5,10 @@
 #
 #
 # GITHUB:
+#   Create homework repo
+#     - add .gitignore to the root or .DS_STORE modifications in
+#       the project root will cause pull requests to be rejected
+#       the .gitignore in this repo should work well.
 #   Create an access token: https://github.com/settings/tokens
 #   Create a webhook in the settings tab of your homework repo
 #     - url = this app root
@@ -16,6 +20,7 @@
 # HEROKU CONFIG:
 #   access_token=your_github_access_token_here
 #   GIT_SECRET=your_github_webhook_secret_here
+#
 #
 
 require 'sinatra'
